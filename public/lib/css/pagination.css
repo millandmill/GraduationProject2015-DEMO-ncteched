@@ -1,0 +1,18 @@
+.paging-nav {
+  text-align: left;
+  padding-top: 2px;
+  font-family: 'THSarabunNew', sans-serif; 
+}
+.paging-nav a {
+  margin: auto 1px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1px 7px;
+  background: #887b63;
+  color: white;
+  border-radius: 4px;
+}
+.paging-nav .selected-page {
+  background: #8a6d3b;
+  font-weight: bold;
+}

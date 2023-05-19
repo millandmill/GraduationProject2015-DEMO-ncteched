@@ -1,0 +1,20 @@
+div.container {
+    background-color: #fff;
+    border-radius: 2px;
+    margin: auto auto;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+div.errors {
+    padding: 10px;
+    color: red;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+}
+div.success {
+    padding: 22px;
+    color: green;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+}

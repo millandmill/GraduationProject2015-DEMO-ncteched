@@ -1,0 +1,53 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.mi-notify-info, .mi-notify-success, .mi-notify-warning, .mi-notify-error {
+    padding:10px;
+    margin:10px 0;
+
+}
+.mi-notify-info:before, .mi-notify-success:before, .mi-notify-warning:before, .mi-notify-error:before {
+    font-family:FontAwesome;
+    font-style:normal;
+    font-weight:400;
+    speak:none;
+    display:inline-block;
+    text-decoration:inherit;
+    width:1em;
+    margin-right:.2em;
+    text-align:center;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1em;
+    margin-left:.2em;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+/*.mi-notify-info:before {*/
+    /*content:"\f05a";*/
+/*}*/
+/*.mi-notify-success:before {*/
+    /*content:'\f00c';*/
+/*}*/
+/*.mi-notify-warning:before {*/
+    /*content:'\f071';*/
+/*}*/
+/*.mi-notify-error:before {*/
+    /*content:'\f057';*/
+/*}*/
+
+.mi-notify-info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.mi-notify-success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.mi-notify-warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.mi-notify-error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
