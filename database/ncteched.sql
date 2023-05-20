@@ -193,7 +193,7 @@ CREATE TABLE `email_system` (
 --
 
 INSERT INTO `email_system` (`email_system_id`, `protocol`, `smtp_host`, `smtp_port`, `smtp_user`, `smtp_pass`, `charset`, `mailtype`) VALUES
-(1, 'smtp', 'ssl://smtp.gmail.com', '465', 'ncteched.kmutnb@gmail.com', 'kmutnb123456', 'utf-8', 'html');
+(1, 'smtp', 'ssl://smtp.gmail.com', '465', '[ใส่ email ตรงนี้]', '[ใส่ Password email]', 'utf-8', 'html');
 
 -- --------------------------------------------------------
 
